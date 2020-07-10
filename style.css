@@ -1,0 +1,36 @@
+body{
+    background: #facde4;
+    height: 400vh;
+    color: white;
+    padding: 2em;
+  }
+  
+  #image-sequence{
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/263075/paper-01.jpg');
+    background-size: 50%;
+    background-repeat: no-repeat;
+  }
+  
+  h1{
+    padding-top: 100vh;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 46px;
+    font-weight: bold;
+  }
+  
+  p{
+    width: 50%;
+    font-family: 'Rubik', sans-serif;
+    padding: 2em;
+  }
+  
+  
+  Resources
